@@ -13,7 +13,7 @@ body{
   max-width: 1200px;
   border: 2px solid red;
   margin: auto;
-  background-color: liner-gra;
+  
 }
 
       /* NAVBER STAR */
@@ -154,4 +154,46 @@ font-weight: 800;
 }
 
 /* NAV AND TOP END HERE */
+.habit-main-div{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
 
+.habit-para{
+  text-align: center;
+  margin-top: 30px;
+}
+.habit-para1{
+  font-size: 3rem;
+  color: #FFFFFF;
+  font-weight: 700;
+  margin-bottom:10px ;
+}
+.habit-para2{
+  font-size: 0.9rem;
+  color: #ffffff6b;
+}
+
+.habit-img-text{
+width: 300px;
+height: 274px;
+/* border: 2px solid aqua; */
+text-align: center;
+}
+.habit-img-text img{
+  border-radius: 50%;
+  margin-bottom: 15px;
+  
+}
+.habit-img-para1{
+ font-size: 1.1rem;
+ font-weight: 700;
+ color: #FFFFFF;
+ margin-bottom: 5px;
+}
+.habit-img-para2{
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #ffffff6b;
+ }
