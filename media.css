@@ -109,4 +109,32 @@ margin-top: 30px;
  
 }
 
+/* BMI CALCULATOR START HERE */
+
+.table-div{
+ 
+  margin: auto;
+}
+.table-calculator{
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+.cal-para1{
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  
+}
+.cal-para2{
+  font-size: 0.8rem;
+  color: #ffffff6b; ;
+}
+.Bmi-cal-para{
+  margin:auto 50px;
+  margin-top: 30px;
+  
+}
+
 }
