@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+  font-family: "Inter", sans-serif;
+  background-color: black;
+  
+}
+.container{
+  max-width: 1200px;
+  border: 2px solid red;
+  margin: auto;
+  background-color: liner-gra;
+}
+
+      /* NAVBER STAR */
+
+.flex-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.nav-p{
+color: #E6533C;
+font-size: 3.2rem;
+font-style: italic;
+font-weight: bolder;
+}
+.list-items{
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+  color:#FFFFFF;
+  border: 1px solid rgb(91, 95, 91);
+  border-radius: 30px;
+  padding: 10px 0;
+  align-items: center;
+ 
+}
+.list-items li{
+font-size:1.1rem;
+margin: 0 10px;
+}
+.home{
+  background-color: #E6533C;
+  color: #FFFFFF;
+  padding: 10px;
+  border-radius: 20px;
+  width: 90px;
+  text-align: center;
+  font-weight: bold;
+}
+.hamberger{
+  color: #FFFFFF;
+  display: none;
+}
+
+/* TOP BANNER SECTION HERE */
+
+.top-main-div{
+display: flex;
+justify-content: space-between;
+}
+.top-div-right{
+  width: 600px;
+  height: 440px;
+  border: 2px solid aqua;
+  margin-top: 70px;
+  overflow: hidden;
+ 
+}
+.top-para1{
+font-size: 4rem;
+color: #FFFFFF;
+font-weight: 800;
+}
+.top-para2{
+  color: #ffffff4d;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.top-btn1{
+  background-color: #E6533C;
+  font-size: 1.1rem;
+  padding: 15px;
+  border-radius: 40px;
+  color: #FFFFFF;
+  width: 200px;
+  border: none;
+  
+}
+.top-btn2{
+  
+  font-size: 1.1rem;
+  padding: 15px;
+  border-radius: 40px;
+  color: #FFFFFF;
+  width: 200px;
+  border:  1px solid rgb(91, 95, 91);
+  background-color: #e6533c00 ;
+  margin-left: 20px;
+}
+.top-img{
+  width: 350px;
+  height: 580px;
+  border: 2px solid aqua;;
+  margin-right: 30px;
+  overflow: hidden;
+  
+}
+.floting-btn1{
+  display: flex;
+  width: 180px;
+  height: 80px;
+  background-color: #ffffff41;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  padding: 6px;
+  position: absolute;
+  top: 540px;
+  left: 1100px;
+
+}
+.floting-btn2{
+  width: 180px;
+  height: 80px;
+  background-color: #ffffff41;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  padding: 12px ;
+  position: absolute;
+  top: 300px;
+  left: 1350px;
+  
+}
+.floting-p1{
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.floting-p2{
+  font-size: 1rem;
+  color: #ffffff6b;
+  
+}
+.circle{
+  font-size: 40px;
+  color: #E6533C;
+}
+
+/* NAV AND TOP END HERE */
+
