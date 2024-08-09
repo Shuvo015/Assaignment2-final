@@ -157,7 +157,7 @@ font-weight: 800;
 .habit-main-div{
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .habit-para{
@@ -197,3 +197,49 @@ text-align: center;
   font-weight: 300;
   color: #ffffff6b;
  }
+/* 
+ RUN SECTION START HERE */
+ .run-main-div{
+  display: flex;
+  justify-content: space-between;
+  margin: auto 80px;
+  background-color: #222222;
+  border-radius: 30px;
+ border:3px solid red;
+  margin-top: 40px;
+ }
+ .run-para1{
+ font-size: 3rem;
+ font-weight: 800;
+ color: #FFFFFF;
+ }
+ .run-para2{
+  font-size: 0.9rem;
+   margin: 15px 0;
+  color: #ffffff6b;
+  }
+  .run-btn{
+    background-color: #E6533C;
+    font-size: 1.1rem;
+    padding: 15px;
+    border-radius: 40px;
+    color: #FFFFFF;
+    width: 200px;
+    border: none;
+    margin: 5px ;
+    
+  }
+  .run-right-div{
+    margin: 10px 0px 10px 30px;
+  }
+  .run-img{
+    margin: 20px 0;
+   
+  }
+  .run-img img{
+  width:90%;
+  height: 250px;
+  border-radius: 15px;
+   
+    
+  }

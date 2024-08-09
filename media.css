@@ -76,7 +76,7 @@ flex-direction: column;
 max-width: 300px;
 /* border: 5px solid red; */
 margin: auto;
-
+margin-top: 30px;
 }
 .habit-para1{
   font-size: 2.5rem;
@@ -84,6 +84,29 @@ margin: auto;
 }
 .habit-para2{
   font-size: 0.7rem;
+}
+    /* RUN SECTION START */
+.run-main-div{
+      flex-direction: column;
+      margin: auto 20px;
+      margin-left: 50px;
+      max-width: 100%;
+      
+}
+.run-para1{
+  font-size: 2rem;
+  
+}
+.run-btn{
+    font-size: 1.4rem;
+    padding: 15px;
+    width: 90%;
+}
+
+.run-img{
+  margin: 20px 0;
+  margin-left: 28px;
+ 
 }
 
 }
