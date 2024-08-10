@@ -137,4 +137,55 @@ margin-top: 30px;
   
 }
 
+/* TEAM SECTION START HERE */
+.team-main-div{
+  grid-template-columns: repeat(1,1fr);
+  margin: auto 60px;
+  border-radius: 20px;
 }
+.tariner-pic{
+  margin: auto;
+ }
+ .train-top-para1{
+  font-size: 3rem;
+  font-weight: 800;
+ }
+ .train-top-para2{
+  font-size: 0.7rem;
+  
+ }
+.img-team{
+  max-width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 30px;
+  
+ }
+ /* FOOTER SECTION HERE */
+ .footer-p{
+  color: #E6533C;
+  font-size: 4rem;
+  font-style: italic;
+  font-weight: 900;
+  }
+ .footer-flx-div{
+  flex-direction: column;
+ }
+ .footer-para2{
+  font-size: 0.9rem;
+  color: #ffffff6b;
+  margin: 20px 0;
+  }
+  
+}
+
+
+@media screen and (max-width:430px){
+
+  footer-flx-div{
+    margin-left: 30px;
+  }
+}
+
+
+
